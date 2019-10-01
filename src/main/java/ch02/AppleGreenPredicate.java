@@ -1,6 +1,7 @@
 package ch02;
 
 import model.Apple;
+import model.ApplePredicate;
 
 import static model.Color.GREEN;
 

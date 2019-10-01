@@ -1,6 +1,7 @@
 package ch02;
 
 import model.Apple;
+import model.ApplePredicate;
 import model.Color;
 
 import java.util.ArrayList;
