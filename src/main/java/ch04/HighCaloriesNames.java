@@ -1,5 +1,7 @@
 package ch04;
 
+import model.Dish;
+
 import java.util.List;
 import java.util.stream.Collectors;
 

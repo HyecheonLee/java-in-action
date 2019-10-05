@@ -1,4 +1,4 @@
-package ch04;
+package model;
 
 import java.util.Arrays;
 import java.util.List;
