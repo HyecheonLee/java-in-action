@@ -21,7 +21,6 @@ public class FilteringApples {
                 new Apple(155, GREEN),
                 new Apple(120, RED));
 
-        //람다 표현식 사용
         final List<Apple> redApples = filterApple(inventory, apple -> apple.getColor().equals(RED));
 
         final String sum = reduce(
@@ -71,7 +70,6 @@ public class FilteringApples {
         }
         return result;
     }
-    //동적 파라미터화
 
     private static List<Apple> filterApple(List<Apple> inventory, ApplePredicate predicate) {
         List<Apple> result = new ArrayList<>();

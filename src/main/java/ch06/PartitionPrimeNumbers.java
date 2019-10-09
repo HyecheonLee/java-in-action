@@ -27,6 +27,8 @@ public class PartitionPrimeNumbers {
         return IntStream.rangeClosed(2, candidate - 1)
                 .limit((long) (Math.floor(Math.sqrt(candidate)) - 1))
                 .noneMatch(i -> candidate % i == 0);
+
+
     }
 
     private static Map<Boolean, List<Integer>> partitionPrimesWithCustomCollector(int n) {
